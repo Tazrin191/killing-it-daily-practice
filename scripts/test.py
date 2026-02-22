@@ -1,0 +1,5 @@
+import pandas as pd
+
+df = pd.read_csv("data/Titanic-Dataset.csv")
+
+print(df.head())
